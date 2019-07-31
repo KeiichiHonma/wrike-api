@@ -81,11 +81,17 @@ class Wrikeapi
     }
     function create_tasks($token, $folder, $params = '')
     {
-        $fields = array(
-            'title'=>'task title 2',
-            );
+        //$fields = array(
+        //    'title'=>'task title 2',
+        //    );
         $url = $this->api_url . '/folders/'.$folder.'/tasks';
-        $result = $this->_fetch_result_post($token,$url,$fields);
+        $result = $this->_fetch_result_post($token,$url,$params);
+        return $result;
+    }
+    function create_comments($token, $task_code, $params = '')
+    {
+        $url = $this->api_url . '/tasks/'.$task_code.'/comments';
+        $result = $this->_fetch_result_post($token,$url,$params);
         return $result;
     }
     function attachments_folders($token, $folder, $params = '')
