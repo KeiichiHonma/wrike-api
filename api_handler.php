@@ -94,13 +94,14 @@ class Wrikeapi
         $result = $this->_fetch_result_post($token,$url,$params);
         return $result;
     }
-    function attachments_folders($token, $folder, $params = '')
+
+    function attachments_tasks($token, $task_code, $file_url, $file_name)
     {
-      //$result = $this->curl_get_file('https://attachments.clickup.com/45e9ea56-940e-45d3-a794-d674472d2c2b/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-03-15%2012.55.34.png');
-        $url = $this->api_url . '/folders/'.$folder.'/attachments';
-        $result = $this->curl_post_file($url, $token,'https://attachments.clickup.com/45e9ea56-940e-45d3-a794-d674472d2c2b/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-03-15%2012.55.34.png');
+        $url = $this->api_url . '/tasks/'.$task_code.'/attachments';
+        $result = $this->curl_post_file($url, $token, $file_url, $file_name);
         return $result;
     }
+
     /*
      * Get the job done - or provide you with a reaon why i was not done
      */
@@ -195,7 +196,7 @@ class Wrikeapi
       return $result;
     }
 
-    function curl_post_file($url,$token,$file_url)
+    function curl_post_file($url, $token, $file_url, $file_name)
     {
         $obj = file_get_contents($file_url);
         $ch = curl_init();
@@ -205,7 +206,7 @@ class Wrikeapi
             'Authorization: bearer ' . $token,
             'Content-Type: application/octet-stream',
             'X-Requested-With: XMLHttpRequest',
-            'X-File-Name: attachment.png'
+            'X-File-Name: '.urlencode($file_name)
         ];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

@@ -1,17 +1,14 @@
 <?php
 $records = get_csv('./905617DAK9sl9W.csv');
-
 define('angus',TRUE);
 require 'api_handler.php';
 $api = new wrikeapi();
 $access_token = 'eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjI5NDYyMDEsXCJpXCI6NjM4MDk0OCxcImNcIjo0NjEyNTE1LFwidVwiOjYyOTYzNTYsXCJyXCI6XCJVU1wiLFwic1wiOltcIldcIixcIkZcIixcIklcIixcIlVcIixcIktcIixcIkNcIixcIkFcIixcIkxcIl0sXCJ6XCI6W10sXCJ0XCI6MH0iLCJpYXQiOjE1NjM0NDEzMjZ9.rimp4lgSo9HAr36wlW0NN99hHBZlD4IusTaXHI-0EcI';
 
 foreach ($records as $record){
+  //task
   $params['title'] = $record['Task Name'];
-  //$params['description'] = $record['Task Content'];
-  
-  $CsvData = str_replace( '\n', "< br >", $record['Task Content'] );
-  $params['description'] = str_replace( "< br >", "\n", $CsvData );
+  $params['description'] = str_replace( '\n', "<br>", $record['Task Content'] );
   switch ($record['Status']){
   case 'Open':
     $status = 'Active';
@@ -26,15 +23,37 @@ foreach ($records as $record){
     $status = 'Active';
     break;
   }
-  
   $params['status'] = $status;
-  if(!empty($record['Start Date']) && !empty($record['Due Date'])){
-    $params['dates'] = '{"start":"'.date($record['Start Date'], "Ymd").'","due":"'.date($record['Due Date'], "Ymd").'"}';
+  if(!empty($record['Start Date Text']) && !empty($record['Due Date Text'])){
+    $start_date = new DateTime($record['Start Date Text']);
+    $due_date = new DateTime($record['Due Date Text']);
+    $params['dates'] = '{"start":"'.$start_date->format('Y-m-d').'","due":"'.$due_date->format('Y-m-d').'"}';
   }
-  //$task_code = $api->create_tasks($access_token, 'IEACZ5EZI4LGZILT', $params);
-  $comment_params['text'] = $params['description'];
-  $comment_code = $api->create_comments($access_token, 'IEACZ5EZKQLK74NT', $comment_params);
-var_dump($comment_code);
+  $task_json = $api->create_tasks($access_token, 'IEACZ5EZI4LGZILT', $params);
+  $task_obj = json_decode($task_json);
+  $task_code = reset($task_obj->data)->id;
+  
+  //Attachments///////////////////////////////////////////
+  //if(!empty($record['Attachments'])){
+  //  foreach ($record['Attachments'] as $attachment){
+  //    $api->attachments_tasks($access_token, $task_code, $attachment->url, $attachment->title);
+  //  }
+  //}
+  
+  //comments///////////////////////////////////////////
+  if(!empty($record['Comments'])){
+    foreach ($record['Comments'] as $comment){
+      $comment_params['text'] = '';
+      $comment_params['text'] .= 'comment by: '.str_replace('@two2.jp', '', $comment->by).'<br>';
+      $comment_date = new DateTime($comment->date);
+      $comment_params['text'] .= 'comment date: '.$comment_date->format('Y-m-d H:i:s').'<br><br>';
+      $comment_params['text'] .= str_replace( '\n', "<br>", $comment->text);
+      $api->create_comments($access_token, $task_code, $comment_params);
+    }
+  }
+  //$comment_params['text'] = $params['description'];
+  //$comment_code = $api->create_comments($access_token, 'IEACZ5EZKQLK74NT', $comment_params);
+var_dump($task_code);
 die();
 /*
 
