@@ -1,0 +1,699 @@
+
+<!DOCTYPE html>
+<!--
+ Morten D. Hansen
+ 2015 morten@visia.dk
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wrike API</title>
+    </head>
+    <body>
+        <p>running</p>
+        string(16746) "{
+  "kind": "contacts",
+  "data": [
+    {
+      "id": "KUAGAQF7",
+      "firstName": "Kano",
+      "lastName": "Katagiri",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "kano-katagiri@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//18/D2/Box_ffafb42b_75-75_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGBRU6",
+      "firstName": "Kent",
+      "lastName": "Matsui",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "kent-matsui@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//0B/56/Box_fff06292_75-77_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KX74BPN7",
+      "firstName": "My Team",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars/default/internal_users_group.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGDRJT",
+        "KUAGDRHR",
+        "KUAGDKDX",
+        "KUAGCUOL",
+        "KUAGBRU6",
+        "KUAGBLVG",
+        "KUAGBLE4",
+        "KUAGBLCN",
+        "KUAGBK4D",
+        "KUAGAXEA",
+        "KUAGAVOH",
+        "KUAGAQF7",
+        "KUAGAQC6",
+        "KUAGAPWZ",
+        "KUAGAOKD",
+        "KUAGAEZE"
+      ],
+      "myTeam": true
+    },
+    {
+      "id": "KUAGAQC6",
+      "firstName": "Shinji",
+      "lastName": "Maritani",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "shinji-maritani@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//61/7C/Box_ffc0ca33_83-77_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "en",
+      "deleted": false,
+      "title": "Manager"
+    },
+    {
+      "id": "KUAGAKKW",
+      "firstName": "Unito Bot",
+      "lastName": "for Two-Way Sync",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "robot2946201unito@wrike-robot.com",
+          "role": "Collaborator",
+          "external": true,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars/unitobot.png",
+      "timezone": "US/Pacific",
+      "locale": "en",
+      "deleted": false
+    },
+    {
+      "id": "KUAGAJB4",
+      "firstName": "Wrike",
+      "lastName": "Bot",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "robot2946201reminder@wrike-robot.com",
+          "role": "Collaborator",
+          "external": true,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars/reminderbot.png",
+      "timezone": "US/Pacific",
+      "locale": "en",
+      "deleted": false
+    },
+    {
+      "id": "KUAGBK4D",
+      "firstName": "Yuki",
+      "lastName": "Sano",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "yuki-sano@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//88/62/Box_ffd81b60_89-83_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KX74BLG7",
+      "firstName": "all",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//6B/B3/Circle_ff00897b_65-76_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGDRJT",
+        "KUAGDRHR",
+        "KUAGDKDX",
+        "KUAGCT47",
+        "KUAGDD2Y",
+        "KUAGCULP",
+        "KUAGCUOL",
+        "KUAGBRU6",
+        "KUAGBLCN",
+        "KUAGBLE4",
+        "KUAGBLVG",
+        "KUAGBK4D",
+        "KUAGAXEA",
+        "KUAGAVOH",
+        "KUAGAQF7",
+        "KUAGAQC6",
+        "KUAGAPWZ",
+        "KUAGAEZE",
+        "KUAGAOKD"
+      ]
+    },
+    {
+      "id": "KX74A2Q6",
+      "firstName": "brandEngagement",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//7D/C7/Circle_ff9fa8da_66-82_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGDRHR",
+        "KUAGDKDX",
+        "KUAGBLVG"
+      ]
+    },
+    {
+      "id": "KUAGDD2Y",
+      "firstName": "daiki",
+      "lastName": "yano",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "daikiyano.materialpr@gmail.com",
+          "role": "Collaborator",
+          "external": true,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//A1/57/Box_fff9a825_68-89_v1.png",
+      "timezone": "America/Los_Angeles",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KX74BNJ5",
+      "firstName": "development",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//D0/31/Circle_fff48fb1_68-69_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGCULP",
+        "KUAGBRU6",
+        "KUAGBLE4",
+        "KUAGBLCN",
+        "KUAGBK4D",
+        "KUAGAXEA",
+        "KUAGAOKD",
+        "KUAGAEZE"
+      ]
+    },
+    {
+      "id": "KX74BLHC",
+      "firstName": "ecommerce",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//23/38/Circle_ff80deea_69-67_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGAVOH"
+      ]
+    },
+    {
+      "id": "KUAGAPWZ",
+      "firstName": "eri",
+      "lastName": "matsuura",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "eri-matsuura@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//CC/68/Box_ff8e24aa_69-77_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KX74BAIX",
+      "firstName": "graphic",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//EF/76/Circle_ffffb74d_71-82_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGBLVG",
+        "KUAGBLCN",
+        "KUAGBK4D"
+      ]
+    },
+    {
+      "id": "KUAGAXEA",
+      "firstName": "haruka",
+      "lastName": "ogawa",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "haruka-ogawa@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//C8/FE/UERkbULByyky.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false,
+      "title": "designer"
+    },
+    {
+      "id": "KUAGAEZE",
+      "firstName": "keiichi",
+      "lastName": "honma",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "keiichi-honma@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": true
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//8D/5E/1zsSUxZdcste.png",
+      "timezone": "US/Pacific",
+      "locale": "ja",
+      "deleted": false,
+      "me": true,
+      "title": "CTO",
+      "phone": "+81 09047673962"
+    },
+    {
+      "id": "KUAGCULP",
+      "firstName": "mayumi",
+      "lastName": "koshikawa",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "mayu25.k6@gmail.com",
+          "role": "Collaborator",
+          "external": true,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//9F/5A/Box_ff4dd0e1_77-75_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KX74BLHB",
+      "firstName": "newbusiness",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//75/AB/Circle_ff80cbc4_78-69_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGCUOL",
+        "KUAGAPWZ"
+      ]
+    },
+    {
+      "id": "KX74BLHD",
+      "firstName": "r&d",
+      "lastName": "",
+      "type": "Group",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//B3/12/Circle_ff3949ab_82_v1.png",
+      "timezone": "Z",
+      "locale": "en",
+      "deleted": false,
+      "memberIds": [
+        "KUAGDRJT",
+        "KUAGAQF7",
+        "KUAGAQC6"
+      ]
+    },
+    {
+      "id": "KUAGAOKD",
+      "firstName": "ryo",
+      "lastName": "murakami",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "ryo-murakami@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": true,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//1D/59/Box_ff7986cb_82-77_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGBLCN",
+      "firstName": "内海",
+      "lastName": "有香",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "yuka-uchiumi@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//53/EE/NEBGp2jD5go2.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false,
+      "title": "デザイナー"
+    },
+    {
+      "id": "KUAGBLE4",
+      "firstName": "小川",
+      "lastName": "輝美",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "terumi-ogawa@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//85/FD/3XfBTweJBDPd.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false,
+      "title": "Designer"
+    },
+    {
+      "id": "KUAGDKDX",
+      "firstName": "山口",
+      "lastName": "哲平",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "teppei-yamaguchi@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//B9/90/Box_ffe57373_23665-21746_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGAVOH",
+      "firstName": "広野",
+      "lastName": "智之",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "tomoyuki-hirono@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//10/90/Box_ffff9800_24195-26234_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGDM26",
+      "firstName": "後藤",
+      "lastName": "早",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ"
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars/default/deleted.png",
+      "timezone": "US/Pacific",
+      "locale": "en",
+      "deleted": true
+    },
+    {
+      "id": "KUAGDRJT",
+      "firstName": "後藤",
+      "lastName": "早",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "saki-goto@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//CC/78/Box_fffbc02d_24460-26089_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGCT47",
+      "firstName": "新関",
+      "lastName": "和貴",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "kazuki-niizeki@two2.jp",
+          "role": "Collaborator",
+          "external": true,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//8D/70/Box_ff00acc1_26032-21644_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGBRTF",
+      "firstName": "本間",
+      "lastName": "個人",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ"
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars/default/deleted.png",
+      "timezone": "US/Pacific",
+      "locale": "en",
+      "deleted": true
+    },
+    {
+      "id": "KUAGDRHR",
+      "firstName": "柴野",
+      "lastName": "莉沙",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "risa-shibano@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//9B/28/Box_ff43a047_26612-33673_v1.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGCUOL",
+      "firstName": "結城",
+      "lastName": "志保",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "shiho-yuuki@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//B6/62/wg3rSFpOdUlu.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    },
+    {
+      "id": "KUAGBLVG",
+      "firstName": "長谷川",
+      "lastName": "浩",
+      "type": "Person",
+      "profiles": [
+        {
+          "accountId": "IEACZ5EZ",
+          "email": "hiroshi-hasegawa@two2.jp",
+          "role": "User",
+          "external": false,
+          "admin": false,
+          "owner": false
+        }
+      ],
+      "avatarUrl": "https://www.wrike.com/avatars//F1/E0/5zGhSWZ6oRMB.png",
+      "timezone": "Asia/Tokyo",
+      "locale": "ja",
+      "deleted": false
+    }
+  ]
+}"

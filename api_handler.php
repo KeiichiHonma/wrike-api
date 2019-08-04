@@ -59,7 +59,7 @@ class Wrikeapi
      */
     function get_accounts($token)
     {
-        $url = $this->api_url . '/accounts';
+        $url = $this->api_url . '/contacts';
         $result = $this->curl_get($url, $token);
         return $result;
     }
@@ -88,6 +88,7 @@ class Wrikeapi
         $result = $this->_fetch_result_post($token,$url,$params);
         return $result;
     }
+
     function create_comments($token, $task_code, $params = '')
     {
         $url = $this->api_url . '/tasks/'.$task_code.'/comments';

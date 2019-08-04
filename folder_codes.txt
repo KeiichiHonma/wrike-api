@@ -1,0 +1,1065 @@
+
+<!DOCTYPE html>
+<!--
+ Morten D. Hansen
+ 2015 morten@visia.dk
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wrike API</title>
+    </head>
+    <body>
+        <p>running</p>
+        string(22331) "{
+  "kind": "folderTree",
+  "data": [
+    {
+      "id": "IEACZ5EZI7777777",
+      "title": "Root",
+      "childIds": [
+        "IEACZ5EZI4LGZIK4",
+        "IEACZ5EZI4LJ53GK",
+        "IEACZ5EZI4LJ6KFI",
+        "IEACZ5EZI4LC7FZU"
+      ],
+      "scope": "WsRoot"
+    },
+    {
+      "id": "IEACZ5EZI7777776",
+      "title": "Recycle Bin",
+      "childIds": [
+        "IEACZ5EZI4LLZ54M",
+        "IEACZ5EZI4LH64M6",
+        "IEACZ5EZI4LFVKMY",
+        "IEACZ5EZI4LKH5AX",
+        "IEACZ5EZI4LHLIUN",
+        "IEACZ5EZI4LDPSBP",
+        "IEACZ5EZI4LH66MD",
+        "IEACZ5EZI4LKH5A5",
+        "IEACZ5EZI4LH66MQ"
+      ],
+      "scope": "RbRoot"
+    },
+    {
+      "id": "IEACZ5EZI4LJ4FVW",
+      "title": "アプリ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ2EU2",
+      "title": "ウェア",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ2E3D",
+      "title": "タオル",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG2S2W",
+      "title": "ボックス",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHI565",
+      "title": "コンテンツ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ2EHO",
+      "title": "プロテイン",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKZ7PH",
+      "title": "ストアページ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ2E4F",
+      "title": "ヘッドセット",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZOOT",
+      "title": "サービスサイト",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LELFBG",
+      "title": "スーパーセール",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHI6GF",
+      "title": "プロモーション",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZOZS",
+      "title": "プロモーション",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG2JXL",
+      "title": "リテールテック",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFVKMY",
+      "title": "キャンペーンページ",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LELFCG",
+      "title": "ワンダフルデイバナー",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKZ3L5",
+      "title": "ストアページアップデート",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLT2V",
+      "title": "0.1",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:08Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLT3N",
+      "title": "0.2",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:16Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLT33",
+      "title": "0.3",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:22Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLT4S",
+      "title": "0.4",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:28Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLT5J",
+      "title": "0.5",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:34Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLT73",
+      "title": "0.6",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T09:00:42Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LFVH73",
+      "title": "Amazon",
+      "childIds": [
+        "IEACZ5EZI4LKZ3L5",
+        "IEACZ5EZI4LKZ3GO"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDQPBL",
+      "title": "-AW",
+      "childIds": [
+        "IEACZ5EZI4LHI6GF",
+        "IEACZ5EZI4LIJARH",
+        "IEACZ5EZI4LJ4FVW",
+        "IEACZ5EZI4LHI6GM",
+        "IEACZ5EZI4LHI565",
+        "IEACZ5EZI4LG4PAE",
+        "IEACZ5EZI4LG2S2W",
+        "IEACZ5EZI4LG2STQ",
+        "IEACZ5EZI4LIKTDY",
+        "IEACZ5EZI4LHI66K",
+        "IEACZ5EZI4LHI6AL"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6GPH",
+      "title": "BARTH",
+      "childIds": [
+        "IEACZ5EZI4LH645N",
+        "IEACZ5EZI4LDPHUT",
+        "IEACZ5EZI4LH635Z",
+        "IEACZ5EZI4LF3GRK",
+        "IEACZ5EZI4LH64FX"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLUIF",
+      "title": "BARTH Branding",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-23T14:01:22Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LL3K45",
+      "title": "barth-issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LELBX5",
+      "title": "BARTH入浴剤LP",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LELBYT",
+      "title": "BARTH洗顔パウダーLP",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6KQE",
+      "title": "Brand-Engagement",
+      "childIds": [
+        "IEACZ5EZI4LJ6M7E",
+        "IEACZ5EZI4LJ6M4T"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MG",
+      "title": "brand-web",
+      "childIds": [
+        "IEACZ5EZI4LL3LJQ"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5A2",
+      "title": "brand-web",
+      "childIds": [
+        "IEACZ5EZI4LL3LEL"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDPHUT",
+      "title": "brand-web",
+      "childIds": [
+        "IEACZ5EZI4LL3K45",
+        "IEACZ5EZI4LDPH3U"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6FDB",
+      "title": "corporate",
+      "childIds": [
+        "IEACZ5EZI4LDXEPL",
+        "IEACZ5EZI4LHLTZW"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDXEPL",
+      "title": "corporate-web",
+      "childIds": [
+        "IEACZ5EZI4LDXEQ5",
+        "IEACZ5EZI4LDXE4B"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MD",
+      "title": "-creative",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5AX",
+      "title": "-creative",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH64M6",
+      "title": "-creative",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZOV4",
+      "title": "CRM",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZILT",
+      "title": "debug",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6KT7",
+      "title": "Development",
+      "childIds": [
+        "IEACZ5EZI4LHLS3R",
+        "IEACZ5EZI4LFVPR7",
+        "IEACZ5EZI4LHLRMA",
+        "IEACZ5EZI4LFJUV2",
+        "IEACZ5EZI4LH7ERR"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5BB",
+      "title": "display",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MJ",
+      "title": "display",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLOVX",
+      "title": "display",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LL3LBH",
+      "title": "ec-issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6HEX",
+      "title": "ecommerce",
+      "childIds": [
+        "IEACZ5EZI4LFVH73",
+        "IEACZ5EZI4LHZ3JI",
+        "IEACZ5EZI4LFVOX6",
+        "IEACZ5EZI4LELBUQ"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5A6",
+      "title": "flyer",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MH",
+      "title": "flyer",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLOLX",
+      "title": "flyer",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MF",
+      "title": "graphic",
+      "childIds": [
+        "IEACZ5EZI4LH66MP",
+        "IEACZ5EZI4LH66MO",
+        "IEACZ5EZI4LH66MM",
+        "IEACZ5EZI4LH66ML",
+        "IEACZ5EZI4LH66MJ",
+        "IEACZ5EZI4LH66MH"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5A3",
+      "title": "graphic",
+      "childIds": [
+        "IEACZ5EZI4LKH5BD",
+        "IEACZ5EZI4LKH5BC",
+        "IEACZ5EZI4LKH5BB",
+        "IEACZ5EZI4LKH5BA",
+        "IEACZ5EZI4LKH5A7",
+        "IEACZ5EZI4LKH5A6"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LF3GRK",
+      "title": "graphic",
+      "childIds": [
+        "IEACZ5EZI4LHLOVX",
+        "IEACZ5EZI4LHLOLX",
+        "IEACZ5EZI4LJZSU6",
+        "IEACZ5EZI4LHLOOS",
+        "IEACZ5EZI4LHLOTO",
+        "IEACZ5EZI4LHLOJ6",
+        "IEACZ5EZI4LHLPMI"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJZSU6",
+      "title": "instagram",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLIUN",
+      "title": "issues",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5A5",
+      "title": "issues",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MQ",
+      "title": "issues",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDPSBP",
+      "title": "issues",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDXEQ5",
+      "title": "issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFJUV2",
+      "title": "k8s",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5AV",
+      "title": "keskin",
+      "childIds": [
+        "IEACZ5EZI4LKH5AW",
+        "IEACZ5EZI4LKH5A3",
+        "IEACZ5EZI4LKH5A2",
+        "IEACZ5EZI4LKH5AZ",
+        "IEACZ5EZI4LKH5AY"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LL3LEL",
+      "title": "keskin-issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5A7",
+      "title": "leaflet",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MM",
+      "title": "leaflet",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLOTO",
+      "title": "leaflet",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5AZ",
+      "title": "-marketing",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH64FX",
+      "title": "-marketing",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66OY",
+      "title": "-marketing",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6K6R",
+      "title": "New-Business",
+      "childIds": [
+        "IEACZ5EZI4LJ6MP5",
+        "IEACZ5EZI4LKK7HT",
+        "IEACZ5EZI4LJ6MTQ"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LL5CGK",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5IG",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5BC",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5AW",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6M4T",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFVPR7",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6MTQ",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6MIQ",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH645N",
+      "title": "others",
+      "childIds": [
+        "IEACZ5EZI4LHLUIF"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66U7",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66ML",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLPMI",
+      "title": "others",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5BD",
+      "title": "package",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MP",
+      "title": "package",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLOJ6",
+      "title": "package",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5BA",
+      "title": "pop",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66MO",
+      "title": "pop",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLOOS",
+      "title": "pop",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKH5AY",
+      "title": "-product",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH635Z",
+      "title": "-product",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH66RB",
+      "title": "-product",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ53GK",
+      "title": "projects",
+      "childIds": [
+        "IEACZ5EZI4LDQPBL",
+        "IEACZ5EZI4LJ6DLK",
+        "IEACZ5EZI4LKH5AV",
+        "IEACZ5EZI4LJ6GPH",
+        "IEACZ5EZI4LJ6HEX",
+        "IEACZ5EZI4LGZ4ER",
+        "IEACZ5EZI4LJ6FDB"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LL3HWT",
+      "title": "rakuten-issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LLZ54M",
+      "title": "rakuten-issues",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6LER",
+      "title": "R&D",
+      "childIds": [
+        "IEACZ5EZI4LHLY6R",
+        "IEACZ5EZI4LJ6MIQ"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKK7HT",
+      "title": "recruiting",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZ4ER",
+      "title": "-Seimei",
+      "childIds": [
+        "IEACZ5EZI4LGZOV4",
+        "IEACZ5EZI4LG2JZN",
+        "IEACZ5EZI4LGZOKN",
+        "IEACZ5EZI4LGZONY",
+        "IEACZ5EZI4LG2JXL",
+        "IEACZ5EZI4LGZOYW",
+        "IEACZ5EZI4LG2J2H",
+        "IEACZ5EZI4LGZN5R",
+        "IEACZ5EZI4LGZOZS",
+        "IEACZ5EZI4LGZOOT"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6DLK",
+      "title": "Sleepdays",
+      "childIds": [
+        "IEACZ5EZI4LH66U7",
+        "IEACZ5EZI4LH66OY",
+        "IEACZ5EZI4LH66MG",
+        "IEACZ5EZI4LH66MF",
+        "IEACZ5EZI4LH66RB"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LL3LJQ",
+      "title": "sleepdays-issues",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6KFI",
+      "title": "teams",
+      "childIds": [
+        "IEACZ5EZI4LJ6KT7",
+        "IEACZ5EZI4LJ6KQE",
+        "IEACZ5EZI4LJ6K6R",
+        "IEACZ5EZI4LJ6LER"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZIK4",
+      "title": "test",
+      "childIds": [
+        "IEACZ5EZI4LGZILT"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLTZW",
+      "title": "Two Design System",
+      "childIds": [
+        "IEACZ5EZI4LHLT2V",
+        "IEACZ5EZI4LHLT4S",
+        "IEACZ5EZI4LHLT3N",
+        "IEACZ5EZI4LHLT5J",
+        "IEACZ5EZI4LHLT33",
+        "IEACZ5EZI4LHLT73"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LDPH3U",
+      "title": "ver2.0",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE",
+          "KUAGAXEA"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-10T21:19:19Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHLIWU",
+      "title": "ver2.0",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-22T08:19:37Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LDXE4B",
+      "title": "ver2.0",
+      "childIds": [],
+      "scope": "WsFolder",
+      "project": {
+        "authorId": "KUAGAEZE",
+        "ownerIds": [
+          "KUAGAEZE"
+        ],
+        "customStatusId": "IEACZ5EZJMAAAAAA",
+        "createdDate": "2019-07-10T21:35:01Z"
+      }
+    },
+    {
+      "id": "IEACZ5EZI4LHZ3JI",
+      "title": "Yahoo",
+      "childIds": [
+        "IEACZ5EZI4LKZ7KU",
+        "IEACZ5EZI4LKZ7PH"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG2STQ",
+      "title": "体組成計",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LC7FZU",
+      "title": "個人専用",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZOYW",
+      "title": "デザイン・制作",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHI66K",
+      "title": "周辺グッズ",
+      "childIds": [
+        "IEACZ5EZI4LJ2EHO",
+        "IEACZ5EZI4LJ2EU2",
+        "IEACZ5EZI4LJ2E4F",
+        "IEACZ5EZI4LJ2E3D"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZN5R",
+      "title": "商品",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LK23M3",
+      "title": "大感謝祭",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFVKNR",
+      "title": "広告バナー",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKZ7KU",
+      "title": "広告バナー",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKZ3GO",
+      "title": "広告バナー",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZONY",
+      "title": "店舗運営",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LGZOKN",
+      "title": "店舗開発",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLRMA",
+      "title": "情報システム",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LKMWTY",
+      "title": "新商品・セット商品",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LELBUQ",
+      "title": "楽天",
+      "childIds": [
+        "IEACZ5EZI4LELFBG",
+        "IEACZ5EZI4LELFCG",
+        "IEACZ5EZI4LL5CGK",
+        "IEACZ5EZI4LELBYT",
+        "IEACZ5EZI4LK23M3",
+        "IEACZ5EZI4LELBX5",
+        "IEACZ5EZI4LFVKNR",
+        "IEACZ5EZI4LFVBSH",
+        "IEACZ5EZI4LL3HWT",
+        "IEACZ5EZI4LKMWTY"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHI6GM",
+      "title": "法務",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG2J2H",
+      "title": "法務",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LIKTDY",
+      "title": "物流",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG2JZN",
+      "title": "物流",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLS3R",
+      "title": "環境構築",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFVOX6",
+      "title": "自社EC",
+      "childIds": [
+        "IEACZ5EZI4LHLIWU",
+        "IEACZ5EZI4LKH5IG",
+        "IEACZ5EZI4LL3LBH"
+      ],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LH7ERR",
+      "title": "議事録",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6M7E",
+      "title": "議事録",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LJ6MP5",
+      "title": "議事録",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHLY6R",
+      "title": "議事録",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LFVBSH",
+      "title": "お買い物マラソン",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LHI6AL",
+      "title": "スタジオ運営",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LG4PAE",
+      "title": "配信",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LIJARH",
+      "title": "スタジオ開発",
+      "childIds": [],
+      "scope": "WsFolder"
+    }
+  ]
+}"
