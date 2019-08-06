@@ -1,17 +1,22 @@
 <?php
 $is_debug = false;
-
+$root_folder_code = 'IEACZ5EZI7777777';//team others
 //$folder_code = 'IEACZ5EZI4LGZILT';//debug
 //$folder_code = 'IEACZ5EZI4LG4PAE';//配信
 //$folder_code = 'IEACZ5EZI4LDPHUT';//barth brand-web
-$folder_code = 'IEACZ5EZI4LH66MG';//sleepdays brand-web
+//$folder_code = 'IEACZ5EZI4LH66MG';//sleepdays brand-web
+//$folder_code = 'IEACZ5EZI4LHLT73';//0.1
+//$folder_code = 'IEACZ5EZI4LFVPR7';//team others
+$folder_code = 'IEACZ5EZI4LHLUIF';//team others
 
 $space = 'Development';
-$list = 'Team Tasks';
+$list = 'BARTH Branding';
 //$project = 'AW';
 //$project = 'BARTH';
-$project = 'Sleepdays';
-
+//$project = 'Sleepdays';
+//$project = '0.6';
+//$project = 'Others';
+$project = 'ブランド設計';
 
 //---------------------------
 $assignees = array
@@ -73,6 +78,7 @@ foreach ($records as $record){
   //subtask
   if(array_key_exists($record['Parent ID'], $task_codes)){
     $params['superTasks'] = '["'.$task_codes[$record['Parent ID']].'"]';
+    $folder_code = $root_folder_code;
   }
   
   
@@ -98,6 +104,7 @@ foreach ($records as $record){
     $task_code = reset($task_obj->data)->id;
     $task_codes[$record['Task ID']] = $task_code;
     if(is_array($record['Checklists'])){
+      $folder_code = $root_folder_code;
       foreach ($record['Checklists'] as $checklist){
         $child_params = array();
         $child_params['title'] = $checklist;

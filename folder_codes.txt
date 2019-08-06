@@ -11,7 +11,7 @@
     </head>
     <body>
         <p>running</p>
-        string(22331) "{
+        string(23811) "{
   "kind": "folderTree",
   "data": [
     {
@@ -19,6 +19,7 @@
       "title": "Root",
       "childIds": [
         "IEACZ5EZI4LGZIK4",
+        "IEACZ5EZI4LMMU3X",
         "IEACZ5EZI4LJ53GK",
         "IEACZ5EZI4LJ6KFI",
         "IEACZ5EZI4LC7FZU"
@@ -29,21 +30,26 @@
       "id": "IEACZ5EZI7777776",
       "title": "Recycle Bin",
       "childIds": [
-        "IEACZ5EZI4LLZ54M",
-        "IEACZ5EZI4LH64M6",
-        "IEACZ5EZI4LFVKMY",
-        "IEACZ5EZI4LKH5AX",
-        "IEACZ5EZI4LHLIUN",
-        "IEACZ5EZI4LDPSBP",
-        "IEACZ5EZI4LH66MD",
-        "IEACZ5EZI4LKH5A5",
-        "IEACZ5EZI4LH66MQ"
+        "IEACZ5EZI4LMLECB",
+        "IEACZ5EZI4LMMUVO"
       ],
       "scope": "RbRoot"
     },
     {
+      "id": "IEACZ5EZI4LMMVJG",
+      "title": "アプリ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LJ4FVW",
       "title": "アプリ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJP",
+      "title": "ウェア",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -54,8 +60,20 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJO",
+      "title": "タオル",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LJ2E3D",
       "title": "タオル",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJC",
+      "title": "ボックス",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -66,8 +84,32 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMUVO",
+      "title": "アーカイブ",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMU3X",
+      "title": "アーカイブ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJH",
+      "title": "コンテンツ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LHI565",
       "title": "コンテンツ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJL",
+      "title": "プロテイン",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -80,6 +122,12 @@
     {
       "id": "IEACZ5EZI4LKZ7PH",
       "title": "ストアページ",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJM",
+      "title": "ヘッドセット",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -102,6 +150,12 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJI",
+      "title": "プロモーション",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LHI6GF",
       "title": "プロモーション",
       "childIds": [],
@@ -118,12 +172,6 @@
       "title": "リテールテック",
       "childIds": [],
       "scope": "WsFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LFVKMY",
-      "title": "キャンペーンページ",
-      "childIds": [],
-      "scope": "RbFolder"
     },
     {
       "id": "IEACZ5EZI4LELFCG",
@@ -249,6 +297,24 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVI7",
+      "title": "-AW 2",
+      "childIds": [
+        "IEACZ5EZI4LMMVJG",
+        "IEACZ5EZI4LMMVJH",
+        "IEACZ5EZI4LMMVJE",
+        "IEACZ5EZI4LMMVJF",
+        "IEACZ5EZI4LMMVJC",
+        "IEACZ5EZI4LMMVJD",
+        "IEACZ5EZI4LMMVJA",
+        "IEACZ5EZI4LMMVJB",
+        "IEACZ5EZI4LMMVJK",
+        "IEACZ5EZI4LMMVJI",
+        "IEACZ5EZI4LMMVJJ"
+      ],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LJ6GPH",
       "title": "BARTH",
       "childIds": [
@@ -330,8 +396,7 @@
       "id": "IEACZ5EZI4LJ6FDB",
       "title": "corporate",
       "childIds": [
-        "IEACZ5EZI4LDXEPL",
-        "IEACZ5EZI4LHLTZW"
+        "IEACZ5EZI4LDXEPL"
       ],
       "scope": "WsFolder"
     },
@@ -345,24 +410,6 @@
       "scope": "WsFolder"
     },
     {
-      "id": "IEACZ5EZI4LH66MD",
-      "title": "-creative",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LKH5AX",
-      "title": "-creative",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LH64M6",
-      "title": "-creative",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
       "id": "IEACZ5EZI4LGZOV4",
       "title": "CRM",
       "childIds": [],
@@ -371,13 +418,16 @@
     {
       "id": "IEACZ5EZI4LGZILT",
       "title": "debug",
-      "childIds": [],
+      "childIds": [
+        "IEACZ5EZI4LMMVI7"
+      ],
       "scope": "WsFolder"
     },
     {
       "id": "IEACZ5EZI4LJ6KT7",
       "title": "Development",
       "childIds": [
+        "IEACZ5EZI4LHLTZW",
         "IEACZ5EZI4LHLS3R",
         "IEACZ5EZI4LFVPR7",
         "IEACZ5EZI4LHLRMA",
@@ -480,34 +530,16 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMLECB",
+      "title": "hoge",
+      "childIds": [],
+      "scope": "RbFolder"
+    },
+    {
       "id": "IEACZ5EZI4LJZSU6",
       "title": "instagram",
       "childIds": [],
       "scope": "WsFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LHLIUN",
-      "title": "issues",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LKH5A5",
-      "title": "issues",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LH66MQ",
-      "title": "issues",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
-      "id": "IEACZ5EZI4LDPSBP",
-      "title": "issues",
-      "childIds": [],
-      "scope": "RbFolder"
     },
     {
       "id": "IEACZ5EZI4LDXEQ5",
@@ -734,12 +766,6 @@
       "scope": "WsFolder"
     },
     {
-      "id": "IEACZ5EZI4LLZ54M",
-      "title": "rakuten-issues",
-      "childIds": [],
-      "scope": "RbFolder"
-    },
-    {
       "id": "IEACZ5EZI4LJ6LER",
       "title": "R&D",
       "childIds": [
@@ -751,6 +777,12 @@
     {
       "id": "IEACZ5EZI4LKK7HT",
       "title": "recruiting",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LM4H5R",
+      "title": "research",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -824,17 +856,10 @@
     {
       "id": "IEACZ5EZI4LDPH3U",
       "title": "ver2.0",
-      "childIds": [],
-      "scope": "WsFolder",
-      "project": {
-        "authorId": "KUAGAEZE",
-        "ownerIds": [
-          "KUAGAEZE",
-          "KUAGAXEA"
-        ],
-        "customStatusId": "IEACZ5EZJMAAAAAA",
-        "createdDate": "2019-07-10T21:19:19Z"
-      }
+      "childIds": [
+        "IEACZ5EZI4LM4H5R"
+      ],
+      "scope": "WsFolder"
     },
     {
       "id": "IEACZ5EZI4LHLIWU",
@@ -874,6 +899,12 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJE",
+      "title": "体組成計",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LG2STQ",
       "title": "体組成計",
       "childIds": [],
@@ -889,6 +920,17 @@
       "id": "IEACZ5EZI4LGZOYW",
       "title": "デザイン・制作",
       "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJD",
+      "title": "周辺グッズ",
+      "childIds": [
+        "IEACZ5EZI4LMMVJO",
+        "IEACZ5EZI4LMMVJP",
+        "IEACZ5EZI4LMMVJM",
+        "IEACZ5EZI4LMMVJL"
+      ],
       "scope": "WsFolder"
     },
     {
@@ -974,6 +1016,12 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJB",
+      "title": "法務",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LHI6GM",
       "title": "法務",
       "childIds": [],
@@ -982,6 +1030,12 @@
     {
       "id": "IEACZ5EZI4LG2J2H",
       "title": "法務",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJJ",
+      "title": "物流",
       "childIds": [],
       "scope": "WsFolder"
     },
@@ -1044,14 +1098,32 @@
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJA",
+      "title": "スタジオ運営",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LHI6AL",
       "title": "スタジオ運営",
       "childIds": [],
       "scope": "WsFolder"
     },
     {
+      "id": "IEACZ5EZI4LMMVJK",
+      "title": "配信",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
       "id": "IEACZ5EZI4LG4PAE",
       "title": "配信",
+      "childIds": [],
+      "scope": "WsFolder"
+    },
+    {
+      "id": "IEACZ5EZI4LMMVJF",
+      "title": "スタジオ開発",
       "childIds": [],
       "scope": "WsFolder"
     },

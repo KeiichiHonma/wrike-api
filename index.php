@@ -20,7 +20,8 @@
         <p>running</p>
         <?php
             // check that the API is running - this gets the version
-            $version = $api->get_accounts($access_token);
+            //$version = $api->get_accounts($access_token);
+            $version = $api->get_folders($access_token);
             //$version = $api->create_tasks($access_token, 'IEACZ5EZI4LGZILT');
             //$version = $api->attachments_folders($access_token, 'IEACZ5EZI4LGZILT');
 var_dump($version);
